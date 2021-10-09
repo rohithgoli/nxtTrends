@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.similar-product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 312px;
+  padding: 10px 0px;
+  margin-right: 52px;
+}
+
+@media (min-width: 768px) {
+  .similar-product-card {
+    max-width: 330px;
+  }
+}
+
+.similar-product-img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.product-title {
+  color: #12022f;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 16px 0px;
+  height: 52px;
+}
+
+.product-brand {
+  color: #616e7c;
+  font-size: 28px;
+  margin: 8px 0px;
+}
+
+.price-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  width: 100%;
+}
+
+.product-price {
+  color: #12022f;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 2px 16px;
+
+  height: 52px;
+  align-self: center;
+}
+
+.rating {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.star-image {
+  height: 25px;
+  width: 25px;
+  margin-left: 4px;
+}
