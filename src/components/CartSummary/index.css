@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 24px 0px;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  color: #616e7c;
+}
+
+.order-title {
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .order-title {
+    font-size: 22px;
+  }
+}
+
+.order-value {
+  color: #171f46;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .order-value {
+    font-size: 22px;
+  }
+}
+
+.order-count {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .checkout-btn {
+    width: 100%;
+  }
+}
+
+.checkout-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 100%;
+  border: 0px;
+  border-radius: 6px;
+  height: 42px;
+}
